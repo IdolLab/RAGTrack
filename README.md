@@ -1,4 +1,16 @@
-<h1 align="center">🎯 CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/CVPR-2026-5B4CF6?style=for-the-badge&logo=openaccess&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge" />
+</p>
+
+<h1 align="center">
+  <span style="color:#5B4CF6">RAGTrack</span>: Language-aware RGBT Tracking<br>
+  with Retrieval-Augmented Generation
+</h1>
+
+<h1 align="center">🎯 RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation</h1>
 
 ![motivation](assets/motivation.jpg)
 
