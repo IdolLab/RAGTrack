@@ -88,8 +88,6 @@ conda activate RAGTrack
 - [CLIP](https://pan.baidu.com/s/1NREUlp9FJsK-FZV-SDDqgw?pwd=tea6) (pwd: `tea6`)
 - [Qwen-VL](https://pan.baidu.com/s/) (pwd: `XXX`)
 
-Place them under the appropriate paths (see [Setup & Configuration](#-setup--configuration)).
-
 **3. Install dependencies:**
 
 ```bash
