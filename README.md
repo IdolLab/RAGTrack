@@ -186,7 +186,13 @@ bash train.sh
 
 ### Benchmark Evaluation
 
-Download the [model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./output/`. Modify `<DATASET_PATH>` and `<SAVE_PATH>` in `./RGBT_workspace/test_rgbt_mgpus.py`, then run:
+**1. Download the pretrained model:**
+
+Download the [model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./output/`.
+
+**2. Launch testing:**
+
+Modify `<DATASET_PATH>` and `<SAVE_PATH>` in `./RGBT_workspace/test_rgbt_mgpus.py`, then run:
 
 ```bash
 bash test.sh
