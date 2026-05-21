@@ -34,7 +34,9 @@
 
 ## 📝 Abstract
 
-This repository contains the official implementation of **RAGTrack**, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We introduce textual descriptions into RGBT benchmarks via MLLM-based annotation pipelines, and propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+<p align="justify">
+  This repository contains the official implementation of <strong>RAGTrack</strong>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We introduce textual descriptions into RGBT benchmarks via MLLM-based annotation pipelines, and propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+</p>
 
 ---
 
@@ -62,24 +64,19 @@ This repository contains the official implementation of **RAGTrack**, the first 
 ## 🔬 Adaptive Token Fusion (ATF)
 
 <p align="center">
-  <img src="assets/ATF.jpg" width="90%" alt="Adaptive Token Fusion">
+  <img src="assets/ATCF.jpg" width="90%" alt="Adaptive Token Fusion">
   <br>
   <em>Figure 3. Details of ATF. Dynamic token selection leverages text-guided attention scores to retain target-relevant tokens, while adaptive channel exchange bridges heterogeneous modality gaps.</em>
 </p>
 
 ---
 
-
-
-
-
-
 ## ⚙️ Installation
 Create and activate a conda environment:
 ```
-cd path/to/CADTrack
-conda create -n CADTrack python=3.10
-conda activate CADTrack
+cd path/to/RAGTrack
+conda create -n RAGTrack python=3.10
+conda activate RAGTrack
 ```
 Download [mamba_install](https://pan.baidu.com/s/1Uy1cICsuEKUgv5eMODn5Aw?pwd=a4ja) and install the required packages:
 ```
