@@ -2,32 +2,70 @@
   <img src="https://img.shields.io/badge/CVPR-2026-5B4CF6?style=for-the-badge&logo=openaccess&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge" />
 </p>
 
 <h1 align="center">
-  <span style="color:#5B4CF6">RAGTrack</span>: Language-aware RGBT Tracking<br>
-  with Retrieval-Augmented Generation
+  <a href="https://arxiv.org/abs/2603.03617">RAGTrack: Language-aware RGBT Tracking<br>with Retrieval-Augmented Generation</a>
 </h1>
 
-<h1 align="center">🎯 RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation</h1>
+<p align="center">
+  <a href="https://cvpr.thecvf.com/virtual/2026/poster/37117"><strong>CVPR 2026</strong></a>
+</p>
+
+<p align="center">
+  <b>
+    <a href="https://arxiv.org/abs/2603.03617">📄 Paper</a> &nbsp;|&nbsp;
+    <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
+    <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">🤖 Models</a> &nbsp;|&nbsp;
+    <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">📊 Results</a>
+  </b>
+</p>
+
+---
+
+## 🔥 Motivation
+
+<p align="center">
+  <img src="assets/motivation.png" width="85%" alt="RAGTrack Motivation">
+  <br>
+  <em>Figure 1. (a) Existing RGBT trackers suffer from inadequate appearance modeling, search redundancy, and modality gap. 
+  (b) Our RAGTrack introduces linguistic reasoning, dynamic token selection, and adaptive channel exchange for robust tracking.</em>
+</p>
+
+---
+
+## 👥 Authors
+
+<p align="center">
+  <a href="https://orcid.org/0009-0009-2668-7908">Hao Li</a>, 
+  <a href="https://924973292.github.io/">Yuhao Wang</a>, 
+  <a href="https://orcid.org/0000-0002-1526-7889">Wenning Hao*</a>, 
+  <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
+  <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
+  <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a>
+</p>
+
+<p align="center">
+  College of Command and Control Engineering, Army Engineering University of PLA<br>
+  School of Future Technology, Dalian University of Technology<br>
+  School of Information and Communication Engineering, Dalian University of Technology
+</p>
 
 ![motivation](assets/motivation.jpg)
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2511.17967">CADTrack: Learning Contextual Aggregation with Deformable Alignment for Robust RGBT Tracking</a><br>
+  <a href="https://arxiv.org/abs/2603.03617">RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation</a><br>
   <a href="https://orcid.org/0009-0009-2668-7908">Hao Li</a>, 
   <a href="https://924973292.github.io/">Yuhao Wang</a>, 
-  <a href="https://xiantaohu.github.io/index.html">Xiantao Hu</a>, 
   <a href="https://orcid.org/0000-0002-1526-7889">Wenning Hao*</a>, 
   <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
   <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
   <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a><br>
-  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37535"><strong>AAAI 2026</strong></a>
+  <a href="https://cvpr.thecvf.com/virtual/2026/poster/37117"><strong>CVPR 2026</strong></a>
 </div>
 
 <p align="justify">
-This repository contains the official implementation of <a href="https://arxiv.org/pdf/2511.17967"><strong>CADTrack</strong></a>, a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: <strong>Mamba-based Feature Interaction (MFI)</strong> for efficient cross-modal interaction, <strong>Contextual Aggregation Module (CAM)</strong> for dynamic multi-layer feature fusion, and <strong>Deformable Alignment Module (DAM)</strong> for spatiotemporal alignment. Included are training/evaluation <a href="https://github.com/IdolLab/CADTrack">codes</a>, <a href="https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq">models</a>, and <a href="https://pan.baidu.com/s/1GhiRfekS90EFsEePTHbzYg?pwd=3mbq">results</a>.
+This repository contains the official implementation of <a href="https://arxiv.org/pdf/2511.17967"><strong>CADTrack</strong></a>, a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: <strong>Mamba-based Feature Interaction (MFI)</strong> for efficient cross-modal interaction, <strong>Contextual Aggregation Module (CAM)</strong> for dynamic multi-layer feature fusion, and <strong>Deformable Alignment Module (DAM)</strong> for spatiotemporal alignment. Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
 </p>
 
 ## 🚀 New
