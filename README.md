@@ -245,18 +245,18 @@ We open-source an annotation review tool to facilitate efficient human verificat
 
 We sincerely thank our annotation team for their dedicated efforts:
 
-| | | | | |
-|:---|:---|:---|:---|:---|
-| 王利鑫 Wang Lixin | 黄立宏 Huang Lihong | 李中天 Li Zhongtian | 巩子靖 Gong Zijing | 张翼麟 Zhang Yilin |
-| 刘杨杨 Liu Yangyang | 张宇航 Zhang Yuhang | 刘超远 Liu Chaoyuan | 邱嘉妮 Qiu Jiani | 祝庆恩 Zhu Qing'en |
-| 汪俊佶 Wang Junji | 张熙 Zhang Xi | 胡宁馨 Hu Ningxin | 曲若水 Qu Ruoshui | 罗珲宇 Luo Huiyu |
-| 史健 Shi Jian | 熊悦 Xiong Yue | 田书颜 Tian Shuyan | 张暄雨 Zhang Xuanyu | 王恩惠 Wang Enhui |
-| 杨骐玮 Yang Qiwei | 沈宽心 Shen Kuanxin | 霍亚坤 Huo Yakun | 周皓靖 Zhou Haojing | 洪德宇 Hong Deyu |
-| 王子 Wang Zi | 吴晓文 Wu Xiaowen | 尚龙泉 Shang Longquan | 何涛 He Tao | 赵金旭 Zhao Jinxu |
-| 吕泳锋 Lv Yongfeng | 易韦丞 Yi Weicheng | 刘博文 Liu Bowen |黄星宇 Huang Xingyu |  |
-| 吴子鑫 Wu Zixin | 龙佳琪 Long Jiaqi | 陈明赫 Chen Minghe | 刘礼勇 Liu Liyong | 崔思佳 Cui Sijia |
-|:---|:---|:---|:---|:---|
-```
+<p align="center">
+  <sub>
+    Wang Lixin (王利鑫) · Huang Lihong (黄立宏) · Li Zhongtian (李中天) · Gong Zijing (巩子靖) · Zhang Yilin (张翼麟)<br>
+    Liu Yangyang (刘杨杨) · Zhang Yuhang (张宇航) · Liu Chaoyuan (刘超远) · Qiu Jiani (邱嘉妮) · Zhu Qing'en (祝庆恩)<br>
+    Wang Junji (汪俊佶) · Zhang Xi (张熙) · Hu Ningxin (胡宁馨) · Qu Ruoshui (曲若水) · Luo Huiyu (罗珲宇)<br>
+    Shi Jian (史健) · Xiong Yue (熊悦) · Tian Shuyan (田书颜) · Zhang Xuanyu (张暄雨) · Wang Enhui (王恩惠)<br>
+    Yang Qiwei (杨骐玮) · Shen Kuanxin (沈宽心) · Huo Yakun (霍亚坤) · Zhou Haojing (周皓靖) · Hong Deyu (洪德宇)<br>
+    Wang Zi (王子) · Wu Xiaowen (吴晓文) · Shang Longquan (尚龙泉) · He Tao (何涛) · Zhao Jinxu (赵金旭)<br>
+    Lv Yongfeng (吕泳锋) · Yi Weicheng (易韦丞) · Liu Bowen (刘博文) · Huang Xingyu (黄星宇) · Chen Minghe (陈明赫)<br>
+    Wu Zixin (吴子鑫) · Long Jiaqi (龙佳琪) · Cui Sijia (崔思佳) · Liu Liyong (刘礼勇)
+  </sub>
+</p>
 
 ## 🖼️ Poster
 
