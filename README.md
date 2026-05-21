@@ -204,7 +204,7 @@ For GTOT / RGBT210 / RGBT234 / LasHeR, please use the official [Evaluation Toolk
 
 ---
 
-## 🗂️ Dataset Construction
+## 🗂️ Benchmark Construction
 
 We construct four RGB-T-L benchmarks by introducing high-quality textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR. The annotation pipeline consists of three stages:
 
@@ -255,7 +255,7 @@ We sincerely thank our annotation team for their dedicated efforts:
 | Wang Zi（王子） | Wu Xiaowen（吴晓文） | Shang Longquan（尚龙泉） | He Tao（何涛） | Zhao Jinxu（赵金旭） |
 | Lv Yongfeng（吕泳锋） | Yi Weicheng（易韦丞） | Liu Bowen（刘博文） | Huang Xingyu（黄星宇） | Chen Minghe（陈明赫） |
 | Wu Zixin（吴子鑫） | Long Jiaqi（龙佳琪） | Cui Sijia（崔思佳） | Liu Liyong（刘礼勇） | |
-```
+
 ---
 
 ## 🖼️ Poster
