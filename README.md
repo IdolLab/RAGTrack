@@ -246,16 +246,14 @@ We open-source an annotation review tool to facilitate efficient human verificat
 We sincerely thank our annotation team for their dedicated efforts:
 
 <p align="center">
-  <sub>
-    Wang Lixin (王利鑫) · Huang Lihong (黄立宏) · Li Zhongtian (李中天) · Gong Zijing (巩子靖) · Zhang Yilin (张翼麟)<br>
-    Liu Yangyang (刘杨杨) · Zhang Yuhang (张宇航) · Liu Chaoyuan (刘超远) · Qiu Jiani (邱嘉妮) · Zhu Qing'en (祝庆恩)<br>
-    Wang Junji (汪俊佶) · Zhang Xi (张熙) · Hu Ningxin (胡宁馨) · Qu Ruoshui (曲若水) · Luo Huiyu (罗珲宇)<br>
-    Shi Jian (史健) · Xiong Yue (熊悦) · Tian Shuyan (田书颜) · Zhang Xuanyu (张暄雨) · Wang Enhui (王恩惠)<br>
-    Yang Qiwei (杨骐玮) · Shen Kuanxin (沈宽心) · Huo Yakun (霍亚坤) · Zhou Haojing (周皓靖) · Hong Deyu (洪德宇)<br>
-    Wang Zi (王子) · Wu Xiaowen (吴晓文) · Shang Longquan (尚龙泉) · He Tao (何涛) · Zhao Jinxu (赵金旭)<br>
-    Lv Yongfeng (吕泳锋) · Yi Weicheng (易韦丞) · Liu Bowen (刘博文) · Huang Xingyu (黄星宇) · Chen Minghe (陈明赫)<br>
-    Wu Zixin (吴子鑫) · Long Jiaqi (龙佳琪) · Cui Sijia (崔思佳) · Liu Liyong (刘礼勇)
-  </sub>
+  <kbd>Wang Lixin (王利鑫)</kbd> <kbd>Huang Lihong (黄立宏)</kbd> <kbd>Li Zhongtian (李中天)</kbd> <kbd>Gong Zijing (巩子靖)</kbd> <kbd>Zhang Yilin (张翼麟)</kbd><br>
+  <kbd>Liu Yangyang (刘杨杨)</kbd> <kbd>Zhang Yuhang (张宇航)</kbd> <kbd>Liu Chaoyuan (刘超远)</kbd> <kbd>Qiu Jiani (邱嘉妮)</kbd> <kbd>Zhu Qing'en (祝庆恩)</kbd><br>
+  <kbd>Wang Junji (汪俊佶)</kbd> <kbd>Zhang Xi (张熙)</kbd> <kbd>Hu Ningxin (胡宁馨)</kbd> <kbd>Qu Ruoshui (曲若水)</kbd> <kbd>Luo Huiyu (罗珲宇)</kbd><br>
+  <kbd>Shi Jian (史健)</kbd> <kbd>Xiong Yue (熊悦)</kbd> <kbd>Tian Shuyan (田书颜)</kbd> <kbd>Zhang Xuanyu (张暄雨)</kbd> <kbd>Wang Enhui (王恩惠)</kbd><br>
+  <kbd>Yang Qiwei (杨骐玮)</kbd> <kbd>Shen Kuanxin (沈宽心)</kbd> <kbd>Huo Yakun (霍亚坤)</kbd> <kbd>Zhou Haojing (周皓靖)</kbd> <kbd>Hong Deyu (洪德宇)</kbd><br>
+  <kbd>Wang Zi (王子)</kbd> <kbd>Wu Xiaowen (吴晓文)</kbd> <kbd>Shang Longquan (尚龙泉)</kbd> <kbd>He Tao (何涛)</kbd> <kbd>Zhao Jinxu (赵金旭)</kbd><br>
+  <kbd>Lv Yongfeng (吕泳锋)</kbd> <kbd>Yi Weicheng (易韦丞)</kbd> <kbd>Liu Bowen (刘博文)</kbd> <kbd>Huang Xingyu (黄星宇)</kbd> <kbd>Chen Minghe (陈明赫)</kbd><br>
+  <kbd>Wu Zixin (吴子鑫)</kbd> <kbd>Long Jiaqi (龙佳琪)</kbd> <kbd>Cui Sijia (崔思佳)</kbd> <kbd>Liu Liyong (刘礼勇)</kbd>
 </p>
 
 ## 🖼️ Poster
