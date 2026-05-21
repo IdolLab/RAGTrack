@@ -204,6 +204,59 @@ For GTOT / RGBT210 / RGBT234 / LasHeR, please use the official [Evaluation Toolk
 
 ---
 
+## 🗂️ Dataset Construction
+
+We construct four RGB-T-L benchmarks by introducing high-quality textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR. The annotation pipeline consists of three stages:
+
+**1. Initial Description Generation**
+
+Download [Qwen-VL](#) and generate initial descriptions:
+
+```bash
+cd Qwen-VL
+python generate_description.py
+```
+
+**2. Automatic Refinement**
+
+Download [Qwen3](#) and correct the generated descriptions:
+
+```bash
+cd Qwen3
+python correct_description.py
+```
+
+**3. Human Review & Verification**
+
+We open-source an annotation review tool to facilitate efficient human verification:
+
+- 🔍 [AnnotationCheck](https://github.com/29233/AnnotationCheck)
+
+> 💡 The final annotations are reviewed by our annotation team to correct remaining hallucinations, grammatical errors, and mixed-language content, ensuring high-quality semantic labels.
+
+**Annotation Statistics**
+
+| Dataset | Split | Sequences | Descriptions |
+|:-------:|:-----:|:---------:|:------------:|
+| LasHeR | Train | 979 | 514,081 |
+| LasHeR / GTOT / RGBT210 / RGBT234 | Test | 739 | 739 |
+
+**Annotation Team**
+
+We sincerely thank our annotation team for their dedicated efforts:
+
+| | | | | |
+|:---|:---|:---|:---|:---|
+| 王利鑫 Wang Lixin | 黄立宏 Huang Lihong | 李中天 Li Zhongtian | 巩子靖 Gong Zijing | 张翼麟 Zhang Yilin |
+| 刘杨杨 Liu Yangyang | 张宇航 Zhang Yuhang | 刘超远 Liu Chaoyuan | 邱嘉妮 Qiu Jiani | 祝庆恩 Zhu Qing'en |
+| 汪俊佶 Wang Junji | 张熙 Zhang Xi | 胡宁馨 Hu Ningxin | 曲若水 Qu Ruoshui | 罗珲宇 Luo Huiyu |
+| 史健 Shi Jian | 熊悦 Xiong Yue | 田书颜 Tian Shuyan | 张暄雨 Zhang Xuanyu | 王恩惠 Wang Enhui |
+| 杨骐玮 Yang Qiwei | 沈宽心 Shen Kuanxin | 霍亚坤 Huo Yakun | 周皓靖 Zhou Haojing | 洪德宇 Hong Deyu |
+| 王子 Wang Zi | 吴晓文 Wu Xiaowen | 尚龙泉 Shang Longquan | 何涛 He Tao | 赵金旭 Zhao Jinxu |
+| 吕泳锋 Lyu Yongfeng | 易韦丞 Yi Weicheng | 刘博文 Liu Bowen |黄星宇 Huang Xingyu | |
+| 吴子鑫 Wu Zixin | 龙佳琪 Long Jiaqi | 陈明赫 Chen Minghe | 刘礼勇 Liu Liyong | 崔思佳 Cui Sijia |
+```
+
 ## 🖼️ Poster
 
 <p align="center">
