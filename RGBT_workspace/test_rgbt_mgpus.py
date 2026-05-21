@@ -166,7 +166,7 @@ def genConfig(seq_path, set_type):
                 first_text_label.append((None,))  # 同样包装成单元素元组
                 print(f'Missing description file: {fp}')
 
-    return RGB_img_list, T_img_list, RGB_gt, T_gt, text_label
+    return RGB_img_list, T_img_list, RGB_gt, T_gt, text_label, first_text_label
 
 
 def run_sequence(seq_name, seq_home, dataset_name, yaml_name, num_gpu=1, epoch=300, debug=0, script_name='prompt', dropped_seqs=None):
