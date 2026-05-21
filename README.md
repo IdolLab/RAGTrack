@@ -256,6 +256,7 @@ We sincerely thank our annotation team for their dedicated efforts:
 | Lv Yongfeng（吕泳锋） | Yi Weicheng（易韦丞） | Liu Bowen（刘博文） | Huang Xingyu（黄星宇） | Chen Minghe（陈明赫） |
 | Wu Zixin（吴子鑫） | Long Jiaqi（龙佳琪） | Cui Sijia（崔思佳） | Liu Liyong（刘礼勇） | |
 ```
+---
 
 ## 🖼️ Poster
 
