@@ -1,0 +1,17 @@
+class EnvironmentSettings:
+    def __init__(self):
+        self.workspace_dir = '/home/sqh/lihao/RAGTrack'
+        self.tensorboard_dir = '/home/sqh/lihao/RAGTrack/tensorboard'
+        self.pretrained_networks = '/home/sqh/lihao/RAGTrack/pretrained_networks'
+        self.got10k_val_dir = '/home/sqh/lihao/RAGTrack/data/got10k/val'
+        self.lasot_lmdb_dir = '/home/sqh/lihao/RAGTrack/data/lasot_lmdb'
+        self.got10k_lmdb_dir = '/home/sqh/lihao/RAGTrack/data/got10k_lmdb'
+        self.trackingnet_lmdb_dir = '/home/sqh/lihao/RAGTrack/data/trackingnet_lmdb'
+        self.coco_lmdb_dir = '/home/sqh/lihao/RAGTrack/data/coco_lmdb'
+        self.coco_dir = '/home/sqh/lihao/RAGTrack/data/coco'
+        self.lasot_dir = '/home/sqh/lihao/RAGTrack/data/lasot'
+        self.got10k_dir = '/home/sqh/lihao/RAGTrack/data/got10k/train'
+        self.trackingnet_dir = '/home/sqh/lihao/RAGTrack/data/trackingnet'
+        self.depthtrack_dir = '/home/sqh/lihao/RAGTrack/data/depthtrack/train'
+        self.lasher_dir = '/home/sqh/lihao/RAGTrack/data/RGBTdatasets/LasHeR/train'
+        self.visevent_dir = '/home/sqh/lihao/RAGTrack/data/visevent/train'
