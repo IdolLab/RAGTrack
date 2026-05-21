@@ -26,7 +26,8 @@
     <a href="https://arxiv.org/abs/2603.03617">📄 Paper</a> &nbsp;|&nbsp;
     <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
     <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">🤖 Models</a> &nbsp;|&nbsp;
-    <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">📊 Results</a>
+    <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">📊 Results</a> &nbsp;|&nbsp;
+    <a href="#">📈 Benchmark</a>
   </b>
 </p>
 
@@ -35,7 +36,7 @@
 ## 📝 Abstract
 
 <p align="justify">
-  This repository contains the official implementation of <strong>RAGTrack</strong>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We introduce textual descriptions into RGBT benchmarks via MLLM-based annotation pipelines, and propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+  This repository contains the official implementation of <strong>RAGTrack</strong>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="#">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
 </p>
 
 ---
@@ -72,87 +73,129 @@
 ---
 
 ## ⚙️ Installation
-Create and activate a conda environment:
-```
-cd path/to/RAGTrack
+
+**1. Clone the repository and create the conda environment:**
+
+```bash
+git clone https://github.com/IdolLab/RAGTrack.git
+cd RAGTrack
 conda create -n RAGTrack python=3.10
 conda activate RAGTrack
 ```
-Download [mamba_install](https://pan.baidu.com/s/1Uy1cICsuEKUgv5eMODn5Aw?pwd=a4ja) and install the required packages:
-```
-bash install_cadtrack.sh
+
+**2. Download auxiliary models:**
+
+- [CLIP](https://pan.baidu.com/s/1NREUlp9FJsK-FZV-SDDqgw?pwd=tea6) (pwd: `tea6`)
+- [Qwen-VL](https://pan.baidu.com/s/) (pwd: `XXX`)
+
+Place them under the appropriate paths (see [Setup & Configuration](#-setup--configuration)).
+
+**3. Install dependencies:**
+
+```bash
+pip install -r requirements.txt
 ```
 
-## 📂 Data Preparation
-Download the following datasets and place them under ./data/:
-- [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
-- [VTUAV](https://zhang-pengyu.github.io/DUT-VTUAV/)
+---
+
+## 📁 Data Preparation
+
+Download the following datasets and place them under `./data/`:
+
+- **RGB-T images**: [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
+- **Textual annotations**: [download](#) (pwd: `XXX`)
+
+The expected directory structure is as follows:
+
+RAGTrack/
+└── data/
+    ├── GTOT/
+    │   ├── BlackCar/
+    │   │   ├── i/
+    │   │   ├── v/
+    │   │   ├── groundTruth_i.txt
+    │   │   ├── groundTruth_v.txt
+    │   │   ├── visible_description.txt
+    │   │   └── text.txt
+    │   └── ...
+    ├── RGBT210/
+    │   ├── afterrain/
+    │   │   ├── infrared/
+    │   │   ├── visible/
+    │   │   ├── init.txt
+    │   │   ├── visible_description.txt
+    │   │   └── text.txt
+    │   └── ...
+    ├── RGBT234/
+    │   └── ...  (same structure as RGBT210)
+    └── LasHeR/
+        ├── train/
+        │   ├── 1boygo/
+        │   │   ├── infrared/
+        │   │   ├── visible/
+        │   │   ├── init.txt
+        │   │   └── visible_description.txt
+        │   └── ...
+        └── test/
+            ├── 1blackteacher/
+            │   ├── infrared/
+            │   ├── visible/
+            │   ├── init.txt
+            │   ├── visible_description.txt
+            │   └── text.txt
+            └── ...
 ```
-$<PATH_of_CADTrack>
--- data
-    -- GTOT
-        |-- BlackCar
-        |-- Black5wan1
-        ...
-    -- RGBT210
-        |-- afterrain
-        |-- aftertree
-        ...
-    -- RGBT234
-        |-- afterrain
-        |-- aftertree
-        ...
-    -- LasHeR/train
-        |-- 1boygo
-        |-- 1handsth
-        ...
-    -- LasHeR/test
-        |-- 1blackteacher
-        |-- 1boycoming
-        ...
-    -- VTUAV/train
-        |-- animal_002
-        |-- bike_002
-        ...
-    -- VTUAV/test_ST
-        |-- animal_001
-        |-- bike_003
-        ...
-    -- VTUAV/test_LT
-        |-- animal_003
-        |-- animal_004
-        ...
-```
+
+---
 
 ## 🔧 Setup & Configuration
-Run the following command to set paths:
-```
-cd <PATH_of_CADTrack>
+
+Run the following command to initialize local paths:
+
+```bash
 python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
 ```
-You can also modify paths by these two files:
-```
-./lib/train/admin/local.py  # paths for training
+
+Alternatively, manually edit the path configs:
+
+```text
+./lib/train/admin/local.py      # paths for training
 ./lib/test/evaluation/local.py  # paths for testing
 ```
 
+---
+
 ## 🏋️ Training
-Download the [pretrained model](https://pan.baidu.com/s/15GjTLQboXcfJaTD5sLLRDQ?pwd=hmaa) and put it under ./pretrained/.
-```
+
+**1. Download the pretrained backbone:**
+
+Download the [pretrained model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./pretrained/`.
+
+**2. Launch training:**
+
+```bash
 bash train.sh
 ```
-You can train models with various variants by modifying ```train.sh```.
 
-## 📊 Testing
-### Testing on Benchmark Datasets
-Modify the <DATASET_PATH> and <SAVE_PATH> in```./RGBT_workspace/test_rgbt_mgpus.py```, then run:
-```
+> 💡 You can switch between different model variants by modifying the arguments in `train.sh`.
+
+---
+
+## 🚀 Testing
+
+### Benchmark Evaluation
+
+Download the [model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./output/`. Modify `<DATASET_PATH>` and `<SAVE_PATH>` in `./RGBT_workspace/test_rgbt_mgpus.py`, then run:
+
+```bash
 bash test.sh
 ```
 
-### Evaluation Tools
-- GTOT/RGBT210/RGBT234/LasHeR: Use the [Evaluation Toolkit](https://chenglongli.cn/Datasets-and-benchmark-code/)
-- VTUAV: Follow the [VTUAV_Evaluation](https://zhang-pengyu.github.io/DUT-VTUAV/)
+### Evaluation Toolkit
+
+For GTOT / RGBT210 / RGBT234 / LasHeR, please use the official [Evaluation Toolkit](https://chenglongli.cn/Datasets-and-benchmark-code/).
+
+---
 
 ## 🖼️ Poster
 
@@ -160,8 +203,17 @@ bash test.sh
   <img src="assets/poster.jpg" width="85%" alt="CVPR 2026 Poster">
 </p>
 
-## 📝 Citation
-If you find CADTrack is helpful for your research, please consider citing:
+---
+
+## 🙏 Acknowledgements
+
+This repo is based on [UNTrack](https://github.com/q2479036243/MUSTMultispectral-UAV-Single-Object-Tracking) and [Qwen-VL](https://github.com/QwenLM/Qwen-VL). We sincerely thank the authors for their excellent works.
+
+---
+
+## 📚 Citation
+
+If you find **RAGTrack** is helpful for your research, please consider citing:
 
 ```bibtex
 @inproceedings{li2026ragtrack,
@@ -172,6 +224,4 @@ If you find CADTrack is helpful for your research, please consider citing:
 }
 ```
 
-## 🙏 Acknowledgments
- This repo is based on [STTrack](https://github.com/NJU-PCALab/STTrack) and [IDEA](https://github.com/924973292/IDEA) which are excellent works.
 <p align="center"> <b>Star ⭐ this repo if you like our work!</b> </p>
