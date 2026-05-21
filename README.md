@@ -246,7 +246,7 @@ We open-source an annotation review tool to facilitate efficient human verificat
 We sincerely thank our annotation team for their dedicated efforts:
 
 | | | | | |
-|:---|:---|:---|:---|:---|
+|:---:|:---:|:---:|:---:|:---:|
 | Wang Lixin（王利鑫） | Huang Lihong（黄立宏） | Li Zhongtian（李中天） | Gong Zijing（巩子靖） | Zhang Yilin（张翼麟） |
 | Liu Yangyang（刘杨杨） | Zhang Yuhang（张宇航） | Liu Chaoyuan（刘超远） | Qiu Jiani（邱嘉妮） | Zhu Qing'en（祝庆恩） |
 | Wang Junji（汪俊佶） | Zhang Xi（张熙） | Hu Ningxin（胡宁馨） | Qu Ruoshui（曲若水） | Luo Huiyu（罗珲宇） |
