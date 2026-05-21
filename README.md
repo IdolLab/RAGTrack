@@ -184,7 +184,7 @@ bash train.sh
 
 ### Benchmark Evaluation
 
-**1. Download the pretrained model:**
+**1. Download the model:**
 
 Download the [model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./output/`.
 
