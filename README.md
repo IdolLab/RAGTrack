@@ -54,7 +54,7 @@
 ## 🏗️ Framework
 
 <p align="center">
-  <img src="assets/pipeline.jpg" width="95%" alt="RAGTrack Pipeline">
+  <img src="assets/pipline.jpg" width="95%" alt="RAGTrack Pipeline">
   <br>
   <em>Figure 2. Overall framework of RAGTrack. MTE performs unified visual-language modeling, ATF dynamically selects target-relevant tokens and enables adaptive channel exchange, and CRM retrieves relevant contexts for context-aware reasoning.</em>
 </p>
