@@ -13,6 +13,15 @@
 </p>
 
 <p align="center">
+  <a href="https://orcid.org/0009-0009-2668-7908">Hao Li</a>, 
+  <a href="https://924973292.github.io/">Yuhao Wang</a>, 
+  <a href="https://orcid.org/0000-0002-1526-7889">Wenning Hao</a>📧, 
+  <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang</a>📧, 
+  <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
+  <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a>
+</p>
+
+<p align="center">
   <b>
     <a href="https://arxiv.org/abs/2603.03617">📄 Paper</a> &nbsp;|&nbsp;
     <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
@@ -26,7 +35,7 @@
 ## 🔥 Motivation
 
 <p align="center">
-  <img src="assets/motivation.jpg" width="85%" alt="RAGTrack Motivation">
+  <img src="assets/motivation.png" width="85%" alt="RAGTrack Motivation">
   <br>
   <em>Figure 1. (a) Existing RGBT trackers suffer from inadequate appearance modeling, search redundancy, and modality gap. 
   (b) Our RAGTrack introduces linguistic reasoning, dynamic token selection, and adaptive channel exchange for robust tracking.</em>
@@ -34,40 +43,59 @@
 
 ---
 
-## 👥 Authors
+## 🏗️ Framework
 
 <p align="center">
-  <a href="https://orcid.org/0009-0009-2668-7908">Hao Li</a>, 
-  <a href="https://924973292.github.io/">Yuhao Wang</a>, 
-  <a href="https://orcid.org/0000-0002-1526-7889">Wenning Hao*</a>, 
-  <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
-  <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
-  <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a>
+  <img src="assets/pipeline.png" width="95%" alt="RAGTrack Pipeline">
+  <br>
+  <em>Figure 2. Overall framework of RAGTrack. MTE performs unified visual-language modeling, ATF dynamically selects target-relevant tokens and enables adaptive channel exchange, and CRM retrieves relevant contexts for context-aware reasoning.</em>
 </p>
+
+---
+
+## 📝 Abstract
+
+This repository contains the official implementation of **RAGTrack**, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We introduce textual descriptions into RGBT benchmarks via MLLM-based annotation pipelines, and propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). RAGTrack achieves **state-of-the-art performance** on GTOT, RGBT210, RGBT234, and LasHeR benchmarks through unified visual-language modeling and dynamic temporal linguistic reasoning.
+
+---
+
+## 🔬 Method Details
+
+### Adaptive Token Fusion (ATF)
 
 <p align="center">
-  College of Command and Control Engineering, Army Engineering University of PLA<br>
-  School of Future Technology, Dalian University of Technology<br>
-  School of Information and Communication Engineering, Dalian University of Technology
+  <img src="assets/atf.png" width="90%" alt="Adaptive Token Fusion">
+  <br>
+  <em>Figure 3. Details of ATF. Dynamic token selection leverages text-guided attention scores to retain target-relevant tokens, while adaptive channel exchange bridges heterogeneous modality gaps.</em>
 </p>
 
-![motivation](assets/motivation.jpg)
+---
 
-<div align="center">
-  <a href="https://arxiv.org/abs/2603.03617">RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation</a><br>
-  <a href="https://orcid.org/0009-0009-2668-7908">Hao Li</a>, 
-  <a href="https://924973292.github.io/">Yuhao Wang</a>, 
-  <a href="https://orcid.org/0000-0002-1526-7889">Wenning Hao*</a>, 
-  <a href="https://scholar.google.com/citations?user=MfbIbuEAAAAJ&hl=zh-CN">Pingping Zhang*</a>, 
-  <a href="https://scholar.google.com/citations?user=nVgPQpoAAAAJ&hl=zh-CN">Dong Wang</a>, 
-  <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN">Huchuan Lu</a><br>
-  <a href="https://cvpr.thecvf.com/virtual/2026/poster/37117"><strong>CVPR 2026</strong></a>
-</div>
+## 🚀 News
 
-<p align="justify">
-This repository contains the official implementation of <a href="https://arxiv.org/pdf/2511.17967"><strong>CADTrack</strong></a>, a novel framework for robust RGB-Thermal (RGBT) object tracking. CADTrack addresses key challenges of modality discrepancies and spatial misalignment via three innovative components: <strong>Mamba-based Feature Interaction (MFI)</strong> for efficient cross-modal interaction, <strong>Contextual Aggregation Module (CAM)</strong> for dynamic multi-layer feature fusion, and <strong>Deformable Alignment Module (DAM)</strong> for spatiotemporal alignment. Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+> **[2026-05-21]** Training/evaluation codes, pretrained models, and tracking results are now available!  
+> **[2026-04-15]** RAGTrack is accepted by **CVPR 2026**! 🎉
+
+---
+
+## 📦 Resources
+
+| Resource | Link | Description |
+|:--------:|:----:|:-----------:|
+| Paper | [arXiv:2603.03617](https://arxiv.org/abs/2603.03617) | Preprint |
+| Code | [GitHub](https://github.com/IdolLab/RAGTrack) | Training & evaluation |
+| Models | [Baidu Drive (pwd: 3ure)](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) | Pretrained checkpoints |
+| Results | [Baidu Drive (pwd: maa5)](https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5) | Tracking outputs |
+
+---
+
+## 🖼️ Poster
+
+<p align="center">
+  <img src="assets/poster.png" width="85%" alt="CVPR 2026 Poster">
 </p>
 
+---
 ## 🚀 New
 - 🎉 Paper Accepted at AAAI 2026!
 - 📦 Code & Models Released – Full implementation now publicly available.
