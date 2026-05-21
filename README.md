@@ -247,16 +247,15 @@ We sincerely thank our annotation team for their dedicated efforts:
 
 | | | | | |
 |:---:|:---:|:---:|:---:|:---:|
-| Wang Lixin（王利鑫） | Huang Lihong（黄立宏） | Li Zhongtian（李中天） | Gong Zijing（巩子靖） | Zhang Yilin（张翼麟） |
-| Liu Yangyang（刘杨杨） | Zhang Yuhang（张宇航） | Liu Chaoyuan（刘超远） | Qiu Jiani（邱嘉妮） | Zhu Qing'en（祝庆恩） |
-| Wang Junji（汪俊佶） | Zhang Xi（张熙） | Hu Ningxin（胡宁馨） | Qu Ruoshui（曲若水） | Luo Huiyu（罗珲宇） |
-| Shi Jian（史健） | Xiong Yue（熊悦） | Tian Shuyan（田书颜） | Zhang Xuanyu（张暄雨） | Wang Enhui（王恩惠） |
-| Yang Qiwei（杨骐玮） | Shen Kuanxin（沈宽心） | Huo Yakun（霍亚坤） | Zhou Haojing（周皓靖） | Hong Deyu（洪德宇） |
-| Wang Zi（王子） | Wu Xiaowen（吴晓文） | Shang Longquan（尚龙泉） | He Tao（何涛） | Zhao Jinxu（赵金旭） |
-| Lv Yongfeng（吕泳锋） | Yi Weicheng（易韦丞） | Liu Bowen（刘博文） | Huang Xingyu（黄星宇） | Chen Minghe（陈明赫） |
-| Wu Zixin（吴子鑫） | Long Jiaqi（龙佳琪） | Cui Sijia（崔思佳） | Liu Liyong（刘礼勇） | |
+| Lixin Wang（王利鑫） | Lihong Huang（黄立宏） | Zhongtian Li（李中天） | Zijing Gong（巩子靖） | Yilin Zhang（张翼麟） |
+| Yangyang Liu（刘杨杨） | Yuhang Zhang（张宇航） | Chaoyuan Liu（刘超远） | Jiani Qiu（邱嘉妮） | Qing'en Zhu（祝庆恩） |
+| Junji Wang（汪俊佶） | Xi Zhang（张熙） | Ningxin Hu（胡宁馨） | Ruoshui Qu（曲若水） | Huiyu Luo（罗珲宇） |
+| Jian Shi（史健） | Yue Xiong（熊悦） | Shuyan Tian（田书颜） | Xuanyu Zhang（张暄雨） | Enhui Wang（王恩惠） |
+| Qiwei Yang（杨骐玮） | Kuanxin Shen（沈宽心） | Yakun Huo（霍亚坤） | Haojing Zhou（周皓靖） | Deyu Hong（洪德宇） |
+| Zi Wang（王子） | Xiaowen Wu（吴晓文） | Longquan Shang（尚龙泉） | Tao He（何涛） | Jinxu Zhao（赵金旭） |
+| Yongfeng Lv（吕泳锋） | Weicheng Yi（易韦丞） | Bowen Liu（刘博文） | Xingyu Huang（黄星宇） | Minghe Chen（陈明赫） |
+| Zixin Wu（吴子鑫） | Jiaqi Long（龙佳琪） | Sijia Cui（崔思佳） | Liyong Liu（刘礼勇） | |
 
----
 
 ## 🖼️ Poster
 
