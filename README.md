@@ -208,10 +208,10 @@ We construct four RGB-T-L benchmarks by introducing high-quality textual descrip
 
 **1. Initial Description Generation**
 
-Download [Qwen2.5-VL](#) and generate initial descriptions:
+Download [Qwen2.5-VL](https://pan.baidu.com/s/1lKJIERWmv305r3LJHO9fiQ) (pwd: `8swe`) and generate initial descriptions:
 
 ```bash
-cd Qwen-VL
+cd Qwen2.5-VL
 python generate_description.py
 ```
 
