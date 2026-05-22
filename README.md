@@ -217,7 +217,7 @@ python generate_description.py
 
 **2. Automatic Refinement**
 
-Download [Qwen3](#) and correct the generated descriptions:
+Download [Qwen3](https://pan.baidu.com/s/1s9bNx2c9Fwvp-i1_NxX94g?pwd=nqqc) and correct the generated descriptions:
 
 ```bash
 cd Qwen3
