@@ -86,7 +86,7 @@ conda activate RAGTrack
 **2. Download auxiliary models:**
 
 - [CLIP](https://pan.baidu.com/s/1NREUlp9FJsK-FZV-SDDqgw?pwd=tea6) (pwd: `tea6`)
-- [Qwen-VL](https://pan.baidu.com/s/) (pwd: `XXX`)
+- [Qwen-VL](https://pan.baidu.com/s/1H2ZSTpCElm9B0WswTDkzRA?pwd=61h4) (pwd: `61h4`)
 
 **3. Install dependencies:**
 
@@ -208,7 +208,7 @@ We construct four RGB-T-L benchmarks by introducing high-quality textual descrip
 
 **1. Initial Description Generation**
 
-Download [Qwen-VL](#) and generate initial descriptions:
+Download [Qwen2.5-VL](#) and generate initial descriptions:
 
 ```bash
 cd Qwen-VL
