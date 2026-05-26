@@ -41,7 +41,7 @@ def genConfig(seq_path, set_type):
                 print(f'Missing description file: {fp}')
 
         first_desc_files = [
-            os.path.join(seq_path, 'text.txt')
+            os.path.join(seq_path, 'class.txt')
         ]
 
         first_text_label = []
@@ -50,7 +50,7 @@ def genConfig(seq_path, set_type):
                 with open(fp, encoding='utf-8') as f:
                     first_text_label.append((f.read().strip(),))  # 注意逗号：单元素元组
             else:
-                first_text_label.append((None,))  # 同样包装成单元素元组
+                first__label.append((None,))  # 同样包装成单元素元组
                 print(f'Missing description file: {fp}')
 
     elif set_type == 'RGBT210':
@@ -75,7 +75,7 @@ def genConfig(seq_path, set_type):
                 print(f'Missing description file: {fp}')
 
         first_desc_files = [
-            os.path.join(seq_path, 'text.txt')
+            os.path.join(seq_path, 'class.txt')
         ]
 
         first_text_label = []
@@ -121,7 +121,7 @@ def genConfig(seq_path, set_type):
                 print(f'Missing description file: {fp}')
 
         first_desc_files = [
-            os.path.join(seq_path, 'text.txt')
+            os.path.join(seq_path, 'class.txt')
         ]
 
         first_text_label = []
@@ -154,7 +154,7 @@ def genConfig(seq_path, set_type):
                 print(f'Missing description file: {fp}')
 
         first_desc_files = [
-            os.path.join(seq_path, 'text.txt')
+            os.path.join(seq_path, 'class.txt')
         ]
 
         first_text_label = []
