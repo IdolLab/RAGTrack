@@ -264,7 +264,7 @@ We sincerely thank our annotation team for their dedicated efforts:
 
 ## 🙏 Acknowledgements
 
-This repo is based on [DUTrack](https://github.com/GXNU-ZhongLab/DUTrack) and [UNTrack](https://github.com/q2479036243/MUSTMultispectral-UAV-Single-Object-Tracking). We sincerely thank the authors for their excellent works.
+This repo is based on [DUTrack](https://github.com/GXNU-ZhongLab/DUTrack) and [MUST](https://github.com/q2479036243/MUST-Multispectral-UAV-Single-Object-Tracking). We sincerely thank the authors for their excellent works.
 
 ---
 
