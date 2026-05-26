@@ -27,7 +27,7 @@
     <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
     <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">🤖 Models</a> &nbsp;|&nbsp;
     <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">📊 Results</a> &nbsp;|&nbsp;
-    <a href="#">📈 Benchmark</a>
+    <a href="https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k">📈 Benchmark</a>
   </b>
 </p>
 
@@ -36,7 +36,7 @@
 ## 📝 Abstract
 
 <p align="justify">
-  This repository contains the official implementation of <strong>RAGTrack</strong>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="#">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+  This repository contains the official implementation of <strong>RAGTrack</strong>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
 </p>
 
 ---
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 Download the following datasets and place them under `./data/`:
 
 - **RGB-T images**: [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
-- **Textual annotations**: [download](#) (pwd: `XXX`)
+- **Textual annotations**: [download](https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k) (pwd: `3h9k`)
 
 The expected directory structure is as follows:
 
@@ -264,7 +264,7 @@ We sincerely thank our annotation team for their dedicated efforts:
 
 ## 🙏 Acknowledgements
 
-This repo is based on [UNTrack](https://github.com/q2479036243/MUSTMultispectral-UAV-Single-Object-Tracking) and [Qwen-VL](https://github.com/QwenLM/Qwen-VL). We sincerely thank the authors for their excellent works.
+This repo is based on [DUTrack](https://github.com/GXNU-ZhongLab/DUTrack) and [UNTrack](https://github.com/q2479036243/MUSTMultispectral-UAV-Single-Object-Tracking). We sincerely thank the authors for their excellent works.
 
 ---
 
