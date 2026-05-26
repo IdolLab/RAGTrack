@@ -36,7 +36,7 @@
 ## 📝 Abstract
 
 <p align="justify">
-  This repository contains the official implementation of <strong>RAGTrack</strong>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+  This repository contains the official implementation of <a href="https://arxiv.org/abs/2603.03617"><strong>RAGTrack</strong></a>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
 </p>
 
 ---
