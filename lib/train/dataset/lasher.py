@@ -65,7 +65,7 @@ class LasHeR(BaseVideoDataset):
 
         n = len(bbox)
 
-        desc_file = os.path.join(seq_path, 'visible_description_ct.txt')
+        desc_file = os.path.join(seq_path, 'visible_description.txt')
         text_label = []
 
         if os.path.isfile(desc_file):
