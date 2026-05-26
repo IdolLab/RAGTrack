@@ -115,7 +115,7 @@ RAGTrack/
     │   │   ├── groundTruth_i.txt
     │   │   ├── groundTruth_v.txt
     │   │   ├── visible_description.txt
-    │   │   └── text.txt
+    │   │   └── class.txt
     │   └── ...
     ├── RGBT210/
     │   ├── afterrain/
@@ -123,7 +123,7 @@ RAGTrack/
     │   │   ├── visible/
     │   │   ├── init.txt
     │   │   ├── visible_description.txt
-    │   │   └── text.txt
+    │   │   └── class.txt
     │   └── ...
     ├── RGBT234/
     │   └── ...  (same structure as RGBT210)
@@ -141,7 +141,7 @@ RAGTrack/
             │   ├── visible/
             │   ├── init.txt
             │   ├── visible_description.txt
-            │   └── text.txt
+            │   └── class.txt
             └── ...
 ```
 
