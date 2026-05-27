@@ -101,7 +101,7 @@ pip install -r requirements.txt
 Download the following datasets and place them under `./data/`:
 
 - **RGB-T images**: [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
-- **Textual annotations**: [download](https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k) (pwd: `3h9k`)
+- **Textual annotations**: [Baidu Drive](https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k) (pwd: `3h9k`) / [Google Drive](https://drive.google.com/file/d/1Y9ktgcdSbgSYqeXak-_dRAx41d447zHz/view?usp=drive_link)
 
 The expected directory structure is as follows:
 
