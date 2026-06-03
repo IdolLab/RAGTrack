@@ -23,7 +23,7 @@
 
 <p align="center">
   <b>
-    <a href="https://arxiv.org/abs/2603.03617">📄 Paper</a> &nbsp;|&nbsp;
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.pdf">📄 Paper</a> &nbsp;|&nbsp;
     <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
     <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">🤖 Models</a> &nbsp;|&nbsp;
     <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">📊 Results</a> &nbsp;|&nbsp;
@@ -36,7 +36,7 @@
 ## 📝 Abstract
 
 <p align="justify">
-  This repository contains the official implementation of <a href="https://arxiv.org/abs/2603.03617"><strong>RAGTrack</strong></a>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+  This repository contains the official implementation of <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.html"><strong>RAGTrack</strong></a>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/1v3cNBoNen_ShSE18G8y_jA?pwd=3h9k">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
 </p>
 
 ---
@@ -277,6 +277,7 @@ If you find **RAGTrack** is helpful for your research, please consider citing:
   title={RAGTrack: Language-aware RGBT Tracking with Retrieval-Augmented Generation},
   author={Li, Hao and Wang, Yuhao and Hao, Wenning and Zhang, Pingping and Wang, Dong and Lu, Huchuan},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={28179--28189},
   year={2026}
 }
 ```
