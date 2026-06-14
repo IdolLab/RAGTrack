@@ -85,8 +85,8 @@ conda activate RAGTrack
 
 **2. Download auxiliary models:**
 
-- [CLIP](https://pan.baidu.com/s/1NREUlp9FJsK-FZV-SDDqgw?pwd=tea6) (pwd: `tea6`)
-- [Qwen-VL](https://pan.baidu.com/s/1H2ZSTpCElm9B0WswTDkzRA?pwd=61h4) (pwd: `61h4`)
+- CLIP: [Baidu Drive](https://pan.baidu.com/s/1NREUlp9FJsK-FZV-SDDqgw?pwd=tea6) (pwd: `tea6`) / [Google Drive](https://drive.google.com/file/d/1fHGIc4NqrdLuE1D-pUqu7yPoI7duWPAq/view?usp=sharing)
+- Qwen-VL: [Baidu Drive](https://pan.baidu.com/s/1H2ZSTpCElm9B0WswTDkzRA?pwd=61h4) (pwd: `61h4`) / [Google Drive](https://drive.google.com/file/d/1jloqePa0PLh38rSqX6tkTBSAI7phn2g0/view?usp=sharing)
 
 **3. Install dependencies:**
 
