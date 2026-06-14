@@ -168,7 +168,7 @@ Alternatively, manually edit the path configs:
 
 **1. Download the pretrained backbone:**
 
-Download the [pretrained model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./pretrained/`.
+Download the pretrained model from [Baidu Drive](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) or [Google Drive](https://drive.google.com/file/d/1pkns8nqofENtUY17ZTeU2g6CA8c--OBh/view?usp=sharing) and place it under `./pretrained/`.
 
 **2. Launch training:**
 
