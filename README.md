@@ -25,9 +25,9 @@
   <b>
     <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.pdf">📄 Paper</a> &nbsp;|&nbsp;
     <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
-    <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">🤖 Models</a> &nbsp;|&nbsp;
-    <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">📊 Results</a> &nbsp;|&nbsp;
-    <a href="https://pan.baidu.com/s/18ovu_cti30NKKfcnwRXytQ?pwd=3iu5">📈 Benchmark</a>
+    <a href="https://drive.google.com/file/d/1M7uZdrAjhbGzRreNvO3ZicQrlaBY8KmL/view?usp=sharing">🤖 Models</a> &nbsp;|&nbsp;
+    <a href="https://drive.google.com/file/d/1WWt6AW2_1Q-sqOzM_5Plo5cSL5FXgiq6/view?usp=sharing">📊 Results</a> &nbsp;|&nbsp;
+    <a href="https://drive.google.com/file/d/1y31vcdPPfpgATDzDOo2xVLTODIgjFosL/view?usp=drive_link">📈 Benchmark</a>
   </b>
 </p>
 
@@ -186,7 +186,7 @@ bash train.sh
 
 **1. Download the model:**
 
-Download the [model](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) and place it under `./output/`.
+Download the model from [Baidu Drive](https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure) (pwd: `3ure`) or [Google Drive](https://drive.google.com/file/d/1M7uZdrAjhbGzRreNvO3ZicQrlaBY8KmL/view?usp=sharing) and place it under `./output/`.
 
 **2. Launch testing:**
 
