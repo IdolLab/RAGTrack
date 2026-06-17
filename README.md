@@ -36,7 +36,7 @@
 ## 📝 Abstract
 
 <p align="justify">
-  This repository contains the official implementation of <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.html"><strong>RAGTrack</strong></a>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/18ovu_cti30NKKfcnwRXytQ?pwd=3iu5">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
+  This repository contains the official implementation of <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Li_RAGTrack_Language-aware_RGBT_Tracking_with_Retrieval-Augmented_Generation_CVPR_2026_paper.html"><strong>RAGTrack</strong></a>, the first language-aware RGBT tracking framework powered by Retrieval-Augmented Generation (RAG). We construct four RGB-T-L <a href="https://pan.baidu.com/s/1Z_v8rrLdJt06hgYmcJjubQ?pwd=nayy">benchmarks</a> by introducing textual descriptions into GTOT, RGBT210, RGBT234, and LasHeR via MLLM-based annotation pipelines. We propose a novel framework consisting of a Multi-modal Transformer Encoder (MTE), Adaptive Token Fusion (ATF), and Context-aware Reasoning Module (CRM). Included are training/evaluation <a href="https://github.com/IdolLab/RAGTrack">codes</a>, <a href="https://pan.baidu.com/s/1MiRG2wMaHMdNPo4-U52ENw?pwd=3ure">models</a>, and <a href="https://pan.baidu.com/s/1wE2XaOgTkcTIED6Xcma5VA?pwd=maa5">results</a>.
 </p>
 
 ---
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 Download the following datasets and place them under `./data/`:
 
 - **RGB-T images**: [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
-- **Textual annotations**: [Baidu Drive](https://pan.baidu.com/s/18ovu_cti30NKKfcnwRXytQ?pwd=3iu5) (pwd: `3iu5`) / [Google Drive](https://drive.google.com/file/d/1y31vcdPPfpgATDzDOo2xVLTODIgjFosL/view?usp=drive_link)
+- **Textual annotations**: [Baidu Drive](https://pan.baidu.com/s/1Z_v8rrLdJt06hgYmcJjubQ?pwd=nayy) (pwd: `nayy`) / [Google Drive](https://drive.google.com/file/d/1y31vcdPPfpgATDzDOo2xVLTODIgjFosL/view?usp=drive_link)
 
 The expected directory structure is as follows:
 
