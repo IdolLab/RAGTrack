@@ -27,7 +27,7 @@
     <a href="https://github.com/IdolLab/RAGTrack">💻 Code</a> &nbsp;|&nbsp;
     <a href="https://drive.google.com/file/d/1M7uZdrAjhbGzRreNvO3ZicQrlaBY8KmL/view?usp=sharing">🤖 Models</a> &nbsp;|&nbsp;
     <a href="https://drive.google.com/file/d/1WWt6AW2_1Q-sqOzM_5Plo5cSL5FXgiq6/view?usp=sharing">📊 Results</a> &nbsp;|&nbsp;
-    <a href="https://drive.google.com/file/d/1y31vcdPPfpgATDzDOo2xVLTODIgjFosL/view?usp=drive_link">📈 Benchmark</a>
+    <a href="https://drive.google.com/file/d/18GOOF6YKekhIwodJMI0ZQPwkRJHFuahI/view?usp=drive_link">📈 Benchmark</a>
   </b>
 </p>
 
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 Download the following datasets and place them under `./data/`:
 
 - **RGB-T images**: [GTOT, RGBT210, RGBT234, LasHeR](https://chenglongli.cn/Datasets-and-benchmark-code/)
-- **Textual annotations**: [Baidu Drive](https://pan.baidu.com/s/1Z_v8rrLdJt06hgYmcJjubQ?pwd=nayy) (pwd: `nayy`) / [Google Drive](https://drive.google.com/file/d/1y31vcdPPfpgATDzDOo2xVLTODIgjFosL/view?usp=drive_link)
+- **Textual annotations**: [Baidu Drive](https://pan.baidu.com/s/1Z_v8rrLdJt06hgYmcJjubQ?pwd=nayy) (pwd: `nayy`) / [Google Drive](https://drive.google.com/file/d/18GOOF6YKekhIwodJMI0ZQPwkRJHFuahI/view?usp=drive_link)
 
 The expected directory structure is as follows:
 
