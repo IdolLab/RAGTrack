@@ -203,7 +203,7 @@ class RAGTrack(nn.Module):
 def build_ragtrack(cfg, training=True):
     current_dir = os.path.dirname(os.path.abspath(__file__))  # This is your Project Root
     pretrained_path = os.path.join(current_dir, '../../../pretrained')
-    if cfg.MODEL.PRETRAIN_FILE and ('DUTrack' not in cfg.MODEL.PRETRAIN_FILE) and training:
+    if cfg.MODEL.PRETRAIN_FILE and ('itpn' not in cfg.MODEL.PRETRAIN_FILE) and training:
         pretrained = os.path.join(pretrained_path, cfg.MODEL.PRETRAIN_FILE)
         print('Load pretrained model from: ' + pretrained)
     else:
@@ -229,7 +229,7 @@ def build_ragtrack(cfg, training=True):
         head_type=cfg.MODEL.HEAD.TYPE,
     )
 
-    if 'DUTrack' in cfg.MODEL.PRETRAIN_FILE and training:
+    if 'SOT' in cfg.MODEL.PRETRAIN_FILE and training:
         checkpoint = torch.load(cfg.MODEL.PRETRAIN_FILE, map_location="cpu")
         missing_keys, unexpected_keys = model.load_state_dict(checkpoint["net"], strict=False)
         print('Load pretrained model from: ' + cfg.MODEL.PRETRAIN_FILE)
