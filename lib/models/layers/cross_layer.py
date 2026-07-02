@@ -113,7 +113,7 @@ class Up_Down(nn.Module):
         x_down = self.act(x_down)
         x_down = self.dropout(x_down)
         x_up = self.adapter_up(x_down)
-        x_r_adap = x_up[:, :N // 2, :]
-        x_x_adap = x_up[:, N // 2:, :]
+        x_r_adap = x[:, :N // 2, :]
+        x_x_adap = x[:, N // 2:, :]
 
         return x_r_adap, x_x_adap
