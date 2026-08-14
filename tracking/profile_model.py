@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     if args.script == "ragtrack":
         model_module = importlib.import_module('lib.models')
-        model_constructor = model_module.build_sttrack
+        model_constructor = model_module.build_ragtrack
         model = model_constructor(cfg, training=False)
         # get the template and search
         template = torch.randn(bs, 6, z_sz, z_sz)
